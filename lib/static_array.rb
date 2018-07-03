@@ -2,7 +2,6 @@
 class StaticArray
   def initialize(length)
     @store = Array.new(length)
-    @length = length
   end
 
   # O(1)
